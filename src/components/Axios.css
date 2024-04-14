@@ -1,0 +1,33 @@
+h1 {
+    font-family: Orbitron, sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.items img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+button:hover {
+    font-size: 17px;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
